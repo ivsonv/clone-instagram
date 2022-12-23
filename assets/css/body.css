@@ -1,0 +1,82 @@
+.page-body {
+    background: var(--color-secondary);
+    width: 100vw;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.stories p {
+    font-size: 20px;
+    color: var(--color-text-primary);
+}
+
+.stories .users {
+    margin-top: 20px;
+}
+
+.stories .users img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border-width: 3px;
+    border-style: solid;
+    border-color: var(--color-instagram);
+    margin-right: 10px;
+}
+
+.publish {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.title {
+    color: var(--color-text-primary);
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.card {
+    max-width: 200px;
+    max-height: 300px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.card img {
+    max-width: 195px;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.card .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.card .footer .user {
+    display: flex;
+    align-items: center;
+}
+
+.card .footer .user img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.card .footer .user small {
+    color: var(--color-text-primary);
+    margin-left: 8px;
+    font-size: 10px;
+}
+
+.card .footer .user-actions .heart {
+    color: red;
+    margin-right: 5px;
+}
+.card .footer .user-actions .comments {
+    color: var(--color-text-primary);
+}
